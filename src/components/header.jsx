@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './header.css';
+import Logo from '../assets/images/logo.png'
 
 const Header = () => {
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
@@ -43,7 +44,7 @@ const Header = () => {
       {/* Top row with logo, search, and user controls */}
       <div className="header-top">
         <div className="left-section">
-          <img src="" alt="HIVE G&H Logo" className="logo" />
+          <img src={Logo} alt="HIVE G&H Logo" className="logo" />
           
           <div className="language-selector" onClick={toggleLanguageDropdown}>
             <div className="globe-icon"></div>

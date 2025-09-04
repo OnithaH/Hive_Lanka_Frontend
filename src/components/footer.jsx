@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './footer.css';
+import Logo from '../assets/images/logo.png'
 
 const Footer = () => {
   const [email, setEmail] = useState('');
