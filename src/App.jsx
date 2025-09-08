@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
 import Forum from './pages/Forum';
-import Donate from './pages/Donate';
+import Donate from './pages/Donate/Donate';
 import Tutorial from './pages/Tutorial';
 import Event from './pages/Event';
 import Contact from './pages/Contact';
